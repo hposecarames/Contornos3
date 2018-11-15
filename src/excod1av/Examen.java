@@ -5,17 +5,15 @@
  */
 package excod1av;
 
-import javax.swing.JOptionPane;
-
 /**
  *
- * @author damian
+ * @author Hector Pose Carames
  */
-public class ExCOD1Av {
-
-    public void datos() {
-        JOptionPane.showMessageDialog(null, "Repositorio clonado");
+public class Examen {
+    
+    public static void main(String[] args) {
+        
+        ExCOD1Av obx = new ExCOD1Av();
+        obx.datos();
     }
-    //Segundo commit
-
 }
